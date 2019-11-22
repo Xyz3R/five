@@ -1,4 +1,4 @@
-package de.xz3.five.five;
+package de.xz3.five;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

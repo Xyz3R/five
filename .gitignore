@@ -1,12 +1,12 @@
 # See https://www.dartlang.org/guides/libraries/private-files
 
+google-service.json
+
 # Files and directories created by pub
 .dart_tool/
 .packages
 .pub/
 build/
-# If you're building an application, you may want to check-in your pubspec.lock
-pubspec.lock
 
 # Directory created by dartdoc
 # If you don't generate documentation locally you can remove this line.
@@ -81,3 +81,4 @@ doc/api/
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+/android/app/google-services.json
