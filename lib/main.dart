@@ -1,4 +1,3 @@
-import 'package:five/pages/CreateRoomPage.dart';
 import 'package:five/pages/EnterNamePage.dart';
 import 'package:five/pages/EnterRoomPage.dart';
 import 'package:five/pages/HomePage.dart';
@@ -16,7 +15,6 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomePage(),
         '/name': (context) => EnterNamePage(),
         '/room': (context) => EnterRoomPage(),
-        '/new': (context) => CreateRoomPage(),
       },
       theme: ThemeData(
         primarySwatch: Colors.indigo,
